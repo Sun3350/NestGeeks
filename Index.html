@@ -10,104 +10,93 @@
             margin: 0;
             padding: 0;
         }
-.top{
-     margin-top:3vh;
-}
         .container{
             width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-margin-bottom:10vh;
         }
-         
-         .description:nth-child(1){
-            font-size: 17px;
-            color: green;
-            text-align: center;
-            margin-top: 7vh;
-margin-bottom:3vh;
-         }
-         
-         .container-text{
+        .container-text{
             font-size: 30px;
             color: green;
             font-weight: 700;
             margin-top: 10vh;
             margin-bottom: 10vh;
          }
-         .card{
-          margin-top: 5vh;
-          margin-bottom: 10vh;
+         .des{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-bottom: 10vh;
         }
+        .description{
+          width: 80%;
+        }
+         .description:nth-child(1){
+            font-size: 17px;
+            color: green;
+            text-align: start;
+            margin-top: 7vh;
+         }
+         span{
+          font-size: 25px;
+            color: green;
+            font-weight: 600;
+            margin-top: 7vh;
+         }
+         .btn {
+          background-color:green ;
+         }
+         .container-header{
+          width: 100%;
+        padding: 20px;
+          position: fixed;
+          top: 0;
+          right: 0;
+          display: flex;
+          align-items: center;
+          background-color: white;
+          justify-content: space-between;
+         }
+         .embed-responsive-item{
+          width: 100vh;
+          height: 50vh;
+         }
     </style>
   </head>
   <body>
+    <div class="container-header">
+      <img src="LOGO-143x25.png" alt="">
+       <a href="https://wa.link/0wkgnz" class="btn btn-light">SignUp</a>
+     </div>
       <div class="container">
-    <div class="container-text">NestGeeks Reality And Investment Limited</div>
-<div class="card text-bg-success w-75">
-      <div class="card-body">
-        <p class="card-text">Discover New Profitable Real Estate Investment With Us.  
-        Book a Free Consultation From Our Expert </p>
-        <a href="https://wa.link/0wkgnz" class="btn btn-danger">Buy Now</a>
-      </div>
-    </div>
-        
-    <div class="top"><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="IMG-20220801-WA0047.jpg" class="d-block w-100 h-70"  alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="IMG-20220801-WA0048.jpg" class="d-block w-100 h-70" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="IMG-20220801-WA0049.jpg" class="d-block w-100 h-70" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+    <div class="container-text">Elite Haven Estate</div>
     <div>
-    <div class="description">Elite Haven Estate is located in a fully developed environment.
-
-        It is located just opposite Beechwood Estate in Bogije Ibeju Lekki.
-        
-        It has Govt Approved Excision. 
-        
-        Features :
-        *Good road network 
-        *5mins drive from Lekki/Epe Express Road. 
-        *Secured and Gated Estate 
-        *It has a lagoon front. 
-        
-        Landmark :
-        Beechwood Estate 
-        Omu Resort 
-        Corona Secondary School 
-        Coscharis motors
-        Lakowe Lakes and Golf. 
-        
-        Plot size-500sqm
-        
-        Price-3.8m per plot
-        
-        Minimum Expected ROI in 12 months-150%
-        
-        Contact no-
-        +2348154132658
-        +2348175326174</div>
-        
+      <div class="embed-responsive embed-responsive-21by9 ">
+        <iframe class="embed-responsive-item" src="real.mp4"></iframe>
+      </div>
     </div>
-    <a href="https://wa.link/0wkgnz" class="btn btn-danger">SignUp</a>
+   
+</div>
+    </div>
+    <div class="des">
+    <div class="description"><span>Elite Haven Estate</span> is located in a fully developed environment.
+      It is located just opposite Beechwood Estate in Bogije Ibeju Lekki. It has Govt Approved Excision.
+      <h2> Features : </h2>
+      <li>Good road network </li>
+      <li>5mins drive from Lekki/Epe Express Road.</li> 
+      <li>Secured and Gated Estate</li>
+      <li>It has a lagoon front.</li> 
+      <h2>Landmark:</h2>
+       Beechwood Estate Omu Resort Corona Secondary School Coscharis motors Lakowe Lakes and Golf. 
+      Plot size-500sqm Price-4M per plot Minimum Expected ROI in 12 months-150%
+        <div class='contact'><span>Contact no-</span> <a href='number'>+2348154132658</a> <a href='number'>+2348175326174</a></div></div>
+        <a href="https://wa.link/0wkgnz" class="btn btn-light">SignUp</a>
+    </div>
+    
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
